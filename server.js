@@ -18,6 +18,12 @@ app.post('*', function(req, res) {
     res.status(200).render('index');
 });
 
+app.get('*', function(req, res) {
+
+    // ejs render automatically looks in the views folder
+    res.status(200).render('index');
+});
+
 app.listen(port, function() {
     console.log('Our app is running on http://localhost:' + port);
 });
