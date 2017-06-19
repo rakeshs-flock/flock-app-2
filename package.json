@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "ejs": "^2.5.6",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "flockos": "0.0.6"
   }
 }
